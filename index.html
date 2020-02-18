@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; 
+    any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .header {
+            /* background-image: url('apple.jpg'); */
+            background-color: #030d48;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 556px;
+            text-align: center;
+        }
+
+        .header * h1{
+            color: white;
+            font-size: 5rem;
+            padding-top: 25%;
+        }
+
+        .header * p {
+            color: white;
+        }
+
+        .columnSection{
+            padding:15%;
+            text-align: center;
+        }
+
+
+        footer{
+        padding: 2em 0;
+        margin: 3em 0;
+        border-top: 1px solid #ddd;
+        color: #999;
+        text-align: center;
+        }
+
+    </style>
+  </head>
+  <body>
+    
+    <!-- Just an image -->
+    <nav class="navbar navbar-dark bg-dark" style="background-color: #043363!important">
+        <a class="navbar-brand">Navbar</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <section>
+        <div class="header">
+            <div class="container">
+                <h1>Hello world</h1>
+                <p>I am learning Bootstrap along side HTML, CSS.
+                    I am building something amazing.
+                </p>
+                <div>
+                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4 columnSection">
+        <div class="container">
+            <h3>This is a demonstration of the Column Section</h3>
+            <p>This is suppose to be some text</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="apple.jpg" alt="" class="img-fluid">
+                            <p>Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Quisque interdum quam odio,
+                                 quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, 
+                                 id vulputate quam iaculis.</p>
+                                 <button type="button" class="btn btn-outline-primary">Primary</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="apple.jpg" alt="" class="img-fluid">
+                            <p>Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Quisque interdum quam odio,
+                                 quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, 
+                                 id vulputate quam iaculis.</p>
+                                 <button type="button" class="btn btn-outline-primary">Primary</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="apple.jpg" alt="" class="img-fluid">
+                            <p>Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit. Quisque interdum quam odio,
+                                 quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, 
+                                 id vulputate quam iaculis.</p>
+                                 <button type="button" class="btn btn-outline-primary">Primary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid footer-style">
+        <footer class="row">
+            <small>This is my Cool Footer, Some cool features of my site will be found here</small>
+        </footer>
+    </section>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript cdn) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
